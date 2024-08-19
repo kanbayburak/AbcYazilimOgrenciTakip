@@ -45,7 +45,7 @@ namespace AbcYazilim.Dal.Base
                 _context.Entry(entity).State = EntityState.Added; //yeni bir kayıt olarak database e ekleyecek 
             }
 
-            //test
+            
         }
 
 
