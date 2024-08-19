@@ -44,6 +44,8 @@ namespace AbcYazilim.Dal.Base
             {
                 _context.Entry(entity).State = EntityState.Added; //yeni bir kayıt olarak database e ekleyecek 
             }
+
+            //test
         }
 
 
@@ -148,6 +150,7 @@ namespace AbcYazilim.Dal.Base
             var maxKod = where == null ? _dbSet.Max(filter) : _dbSet.Where(where).Max(filter);
             return maxKod == null ? Kod() : YeniKodVer(maxKod);
         }
+
 
 
         //burası default olarak geldi sadece bir kaç ekleme yaptık ama çok net kavrayamadım ne yaptık
