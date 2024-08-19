@@ -156,7 +156,7 @@ namespace AbcYazilim.OgrenciTakip.Ul.Win.Forms.BaseForms
             }
             var result = kapanis ? Messages.KapanisMesaj() : Messages.KayitMesaj();
 
-            switch (result)
+            switch (result) //tyhyth
             {
                 case DialogResult.Yes:
                     return KayitIslemi();
