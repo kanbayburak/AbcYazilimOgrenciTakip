@@ -75,4 +75,6 @@ namespace AbcYazilim.OgrenciTakip.Ul.Win.UserControls.Controls
     }
     //Songelişme Open Edit
     //5. işlem
+
+    //6. işlem
 }
