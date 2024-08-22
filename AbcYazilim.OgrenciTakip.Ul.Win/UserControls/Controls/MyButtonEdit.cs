@@ -58,9 +58,7 @@ namespace AbcYazilim.OgrenciTakip.Ul.Win.UserControls.Controls
         public event EventHandler<IdChangedEvenetArgs> IdChanged = delegate { };  //delegate dememizin nedeni hiç bir zaman null a düşmemesi için 
         public event EventHandler EnabledChange = delegate { };
         #endregion
-
     }
-
 
     //Bunu yapmamızın amacı textButton da önceden girilmiş bir value ya ait ıd var ve sonradan değiştireceğimiz value nun ıd si var, bu 2 değeri tutabilmek için kullanılır
     //Bu class 2 tane değer dönecek old-value ve new-value
@@ -75,4 +73,5 @@ namespace AbcYazilim.OgrenciTakip.Ul.Win.UserControls.Controls
         public long? OldValue { get; }
         public long? NewValue { get; }
     }
+    //Songelişme Open Edit
 }
