@@ -74,4 +74,5 @@ namespace AbcYazilim.OgrenciTakip.Ul.Win.UserControls.Controls
         public long? NewValue { get; }
     }
     //Songelişme Open Edit
+    //5. işlem
 }
